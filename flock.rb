@@ -1,4 +1,4 @@
-class Flockcli < Formula
+class Flock < Formula
   desc ""
   homepage ""
   url "https://github.com/jakeheis/FlockCLI/archive/0.0.1.tar.gz"
