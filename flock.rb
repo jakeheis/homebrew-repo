@@ -3,7 +3,7 @@ class Flock < Formula
   homepage ""
   url "https://github.com/jakeheis/FlockCLI/archive/0.0.1.tar.gz"
   version "0.0.1"
-  sha256 "455302da53827cfac2b0cfd94ce09d77a5e5fad40a3cc638e0662ca3beac3565"
+  sha256 "0ec32506edecfe7c44a529a8d0c2eec47731ee9d944d5b3e092b4b0c11f3b647"
 
   def install
     system "swift build -c release"
