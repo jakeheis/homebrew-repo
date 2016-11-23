@@ -6,7 +6,7 @@ class Flock < Formula
   sha256 "0ec32506edecfe7c44a529a8d0c2eec47731ee9d944d5b3e092b4b0c11f3b647"
 
   def install
-    system "swift build -c release"
+    system "unset CC; swift build -c release"
     system "mv .build/release/FlockCLI flock"
     bin.install "flock"
   end
