@@ -1,9 +1,9 @@
 class Ice < Formula
   desc "A developer friendly package manager for Swift; 100% compatible with Swift Package Manager"
   homepage ""
-  url "https://github.com/jakeheis/Ice/archive/0.3.1.tar.gz"
-  version "0.3.1"
-  sha256 "95b3cce64b160f3785dcaf6d37d685821eb5a453b4e33da2945d6e30340157ba"
+  url "https://github.com/jakeheis/Ice/archive/0.4.0.tar.gz"
+  version "0.4.0"
+  sha256 "99dc7c50dafabeaa08151e46339f66bb6d57c880217279c5c478ca039bf5f98b"
 
   def install
     system "unset CC; swift build --disable-sandbox -c release"
